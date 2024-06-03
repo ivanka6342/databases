@@ -28,6 +28,8 @@ Topic: Общежитие
 ![Relational Schema](https://github.com/ivanka6342/databases/blob/main/images/ER-data-model.jpg)
 
 
-### create DB
+### create DB and tables
 
 ![create db](https://github.com/ivanka6342/databases/blob/main/images/create-db-out.png)
+
+![create tables](https://github.com/ivanka6342/databases/blob/main/images/create-tables-out.png)
