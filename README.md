@@ -21,3 +21,8 @@ Topic: Общежитие
 1* | 9) воспитатель – отработка : руководитель труда  
 
 ![ER diagram](https://github.com/ivanka6342/databases/blob/main/images/ER-diagram.jpg)
+
+
+### Convert an ER diagram to the Relational Data Model (Реляционная схема данных) - UML-diagram
+
+![Relational Schema](https://github.com/ivanka6342/databases/blob/main/images/ER-data-model.jpg)
