@@ -41,3 +41,17 @@ Topic: Общежитие
 ![fill table 2](https://github.com/ivanka6342/databases/blob/main/images/fill-table-2.png)
 ![fill table 3](https://github.com/ivanka6342/databases/blob/main/images/fill-table-3.png)
 
+
+### Query tasks - lab 4
+
+Lab 4 implementation rules:
+* only one SELECT operator: no sub-queries, no grouping  
+* choose correct JOIN type according task  
+
+1) ЗАДАНИЕ 1
+вывести инфо о студентах, которые в заданную дату жили в указанной комнате общ.
+формат вывода:
+| общага, комната | срок проживания | № студ.билета | ФИО | курс, группа |
++ сортировка по номеру комнаты
+
+![query 1](https://github.com/ivanka6342/databases/blob/main/images/query1.jpg)
