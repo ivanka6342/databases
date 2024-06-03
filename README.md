@@ -26,3 +26,8 @@ Topic: Общежитие
 ### Convert an ER diagram to the Relational Data Model (Реляционная схема данных) - UML-diagram
 
 ![Relational Schema](https://github.com/ivanka6342/databases/blob/main/images/ER-data-model.jpg)
+
+
+### create DB
+
+![create db](https://github.com/ivanka6342/databases/blob/main/images/create-db-out.png)
