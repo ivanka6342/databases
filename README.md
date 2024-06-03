@@ -33,3 +33,11 @@ Topic: Общежитие
 ![create db](https://github.com/ivanka6342/databases/blob/main/images/create-db-out.png)
 
 ![create tables](https://github.com/ivanka6342/databases/blob/main/images/create-tables-out.png)
+
+
+### Fill tables
+
+![fill table 1](https://github.com/ivanka6342/databases/blob/main/images/fill-table-1.png)
+![fill table 2](https://github.com/ivanka6342/databases/blob/main/images/fill-table-2.png)
+![fill table 3](https://github.com/ivanka6342/databases/blob/main/images/fill-table-3.png)
+
