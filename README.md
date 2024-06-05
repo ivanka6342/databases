@@ -89,3 +89,7 @@ Lab 4 implementation rules:
 
 ![query 4](https://github.com/ivanka6342/databases/blob/main/images/query4.png)
 
+### laba 5
+
+*ЗАДАНИЕ 5*  
+для каждого этажа указать, сколько проживает студентов на определенную дату  
