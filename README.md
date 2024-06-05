@@ -1,8 +1,20 @@
+### Run project
+
+\# git clone \<this repo\>  
+\# cd project directory  
+\# docker-compose up -d  
+open phpmyadmin in web-browser: **localhost:8081**  
+and log in as root:rootpass  
+return to the terminal and run the queries one-by-one  
+\# ./run-queries.sh "1-create-db.sql"  
+check tables in phpmyadmin again  
+
+
 ### ER diagram
 
-Topic: Общежитие
+Topic: Общежитие  
 
-Определение связей:
+Определение связей:  
 
 > типы связей:  
 > 11 - один-к-одному  
@@ -23,12 +35,13 @@ Topic: Общежитие
 ![ER diagram](https://github.com/ivanka6342/databases/blob/main/images/ER-diagram.jpg)
 
 
-### Convert an ER diagram to the Relational Data Model (Реляционная схема данных) - UML-diagram
+### Convert an ER diagram to the Relational Data Model
+Реляционная схема данных - UML-diagram  
 
 ![Relational Schema](https://github.com/ivanka6342/databases/blob/main/images/ER-data-model.jpg)
 
 
-### create DB and tables
+### Create DB and tables
 
 ![create db](https://github.com/ivanka6342/databases/blob/main/images/create-db-out.png)
 
@@ -71,7 +84,7 @@ Lab 4 implementation rules:
 ![query 3](https://github.com/ivanka6342/databases/blob/main/images/query3.png)
 
 *ЗАДАНИЕ 4*  
-график инфо об отработках: кто из студентов с кем работал
+график инфо об отработках: кто из студентов с кем работал  
 \+ сортировка по дате отработок
 
 ![query 4](https://github.com/ivanka6342/databases/blob/main/images/query4.png)
