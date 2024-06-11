@@ -1,12 +1,27 @@
 ### Run project
 
 \# git clone \<this repo\>  
-\# cd project directory  
+\# cd \<project directory\>  
 \# docker-compose up -d  
-open phpmyadmin in web-browser: **localhost:8081**  
-and log in as root:rootpass  
-return to the terminal and run the queries one-by-one  
-\# ./run-queries.sh "1-create-db.sql"  
+Open **phpmyadmin** in web-browser (**localhost:8081**) and log in as root:rootpass  
+
+Now you are ready to run queries one-by-one. You can do it in 3 ways:  
+1. Do everything in browser  
+Open **phpmyadmin** in web-browser as described above  
+Copy query code from <this repo/files/> dir and manually and insert into phpmyadmin console  
+2. Enter mysql container & do everything in it  
+Stay in the terminal  
+\# ./run-queries.sh --copy-only  
+copy mysql container ID  
+Enter docker container  
+\# docker exec -ti <mysql container ID> bash  
+\# cd /root/files  
+\# mysql -u root  
+mysql\> source <sql-query name>  
+3. Run in terminal (without enter to container); see results in browser  
+Open **phpmyadmin** in web-browser as described above  
+Return to the terminal and run the queries one-by-one  
+\# ./run-queries.sh --run-query "1-create-db.sql"  
 check tables in phpmyadmin again  
 
 
